@@ -1,0 +1,69 @@
+
+
+..................................................................................................................
+
+
+
+Algoritmo "atividades"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Larissa ribeiro
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Miguel fiorentin
+// Data atual  : 16/09/2024
+Var
+// Seção de Declarações das variáveis
+idade : inteiro
+media : real
+contador: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+        escreval("insira idade")
+        leia (idade)
+
+        enquanto idade>=0 faca
+           media<-media+idade
+           escreval("insira idade")
+           leia (idade)
+           contador<-contador+1
+       fimenquanto
+
+       escreval("foram lidas" , contador, "idades")
+
+       media<-media/contador
+       escreval("a media da idades digitadas é:", media)
+
+Fimalgoritmo
+
+..................................................................................................................
+
+
+Algoritmo "atividades"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : larissa ribeiro
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : miguel fiorentin
+// Data atual  : 16/09/2024
+Var
+// Seção de Declarações das variáveis
+numero, dobro : inteiro
+
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval("insira um numero")
+   leia (numero)
+   
+   
+   
+   enquanto numero>=0 faca
+            dobro<-numero*2
+            escreval ("o valor do dobro de", numero, "é: ",dobro)
+            escreval("insira um numero")
+            leia (numero)
+fimenquanto
+
+
+Fimalgoritmo
